@@ -1,0 +1,48 @@
+JDBC Error Codes List
+
+
+User
+List of standard jdbc error codes
+
+ChatGPT
+Here is a list of some common standard JDBC error codes:
+
+SQL State: 08001
+Error Code: 0
+Message: The connection could not be established. Possible causes include invalid credentials, incorrect URL, or network issues.
+
+SQL State: 08004
+Error Code: 0
+Message: The connection to the database has been closed.
+
+SQL State: 42S02
+Error Code: 0
+Message: The specified table does not exist in the database.
+
+SQL State: 23505
+Error Code: -803
+Message: An attempt to insert or update data resulted in a duplicate key violation.
+
+SQL State: 23502
+Error Code: -407
+Message: A required column was not provided with a value during an insert or update operation.
+
+SQL State: 23000
+Error Code: 1062
+Message: An attempt to insert or update data violated a unique constraint.
+
+SQL State: 22001
+Error Code: 0
+Message: Data being inserted or updated exceeded the defined column size.
+
+SQL State: 42000
+Error Code: 1064
+Message: There is a syntax error in the SQL statement.
+
+SQL State: 08007
+Error Code: 0
+Message: The connection to the database has been terminated.
+
+SQL State: 40001
+Error Code: 0
+Message: A transaction has been rolled back due to a deadlock or timeout
